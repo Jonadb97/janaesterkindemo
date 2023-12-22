@@ -1,0 +1,27 @@
+.acerca-de {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        margin: 2rem auto 2rem auto;
+    }
+
+    .info-de {
+        display: inline-flex;
+
+        img {
+            width: 30vw;
+            margin-left: auto;
+        }
+
+        p {
+            margin: auto;
+            width: 50vw;
+            font-size: 1.2rem;
+        }
+
+    }
+
+
+}

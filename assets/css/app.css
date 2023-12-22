@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Questrial&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.services {
+  height: 100vh;
+  background-color: #2F4858;
+}
+
+@font-face {
+  font-family: "JWH";
+  font-style: normal;
+  font-weight: 400;
+  src: url("source/assets/fonts/JWH/JWH.ttf") format("ttf");
+}
+/*
+body {
+    background-color: #FFD6BA !important;
+}
+*/
+* {
+  font-family: "Questrial";
+  color: #2F4858;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+  font-family: "JWH";
+}
+
+p {
+  font-family: "Questrial";
+}
+
+small {
+  display: block;
+  color: #888;
+}
+
+main.container, footer.container {
+  max-width: 900px;
+}
+
+footer.container {
+  margin-top: 30px;
+  padding: 30px 0;
+  border-top: 1px dashed #aaa;
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 980px) {
+  body {
+    padding-bottom: 40px;
+  }
+}
+body > main.container {
+  padding: 80px 15px 0; /* 80px to make the container go all the way to the bottom of the topbar */
+}
+
+.logo-nav {
+  width: 64px;
+  transform: translateY(0.5rem);
+  height: 64px;
+  margin-right: 1rem;
+}
+
+.navbar-brand {
+  color: #2F4858 !important;
+  font-family: "JWH";
+}
+
+.nav-link {
+  color: #2F4858 !important;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navegador {
+  background-color: rgba(255, 214, 186, 0.4392156863);
+  backdrop-filter: blur(15px);
+}
+
+.home-container {
+  display: inline-flex;
+  width: 80vw;
+  transform: translateX(-5vw);
+  height: 100vh;
+  background-color: #FFD6BA;
+}
+
+.presentation-logo {
+  margin-right: auto;
+  margin-top: 5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.flowers {
+  position: absolute;
+  width: 40vw;
+  top: 0;
+  left: -8vw;
+  z-index: -1;
+  background-color: #FFD6BA;
+}
+
+••••••• main {
+  width: 100vw;
+  background-color: #FFD6BA;
+}
+
+.logotipo-home {
+  z-index: 2;
+  background-color: rgba(255, 214, 186, 0.7882352941);
+  padding: 3rem;
+  box-shadow: 0px 0px 15px #2F4858;
+  transform: translateX(-3rem);
+}
+
+.presentation {
+  margin-left: 8rem;
+  color: #2F4858;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+.presentation button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dark-btn {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: 1px solid #2F4858;
+  color: #2F4858;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  transition: 0.2s;
+}
+
+.dark-btn:hover {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: 1px solid #2F4858;
+  color: white;
+  background-color: rgba(47, 72, 88, 0.4941176471);
+  backdrop-filter: blur(15px);
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=app.css.map */

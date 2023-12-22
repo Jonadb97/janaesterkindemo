@@ -1,0 +1,27 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input, textarea {
+        background-color: transparent;
+        outline: none;
+        border: 1px solid #2F4858;
+        width: 20vw;
+    }
+
+    input:focus, textarea:focus {
+        background-color: transparent;
+        outline: none;
+        border: 2px solid #2F4858;
+    }
+
+}

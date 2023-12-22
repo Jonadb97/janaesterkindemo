@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[Jana Esterkin]]></title>
-    <link href="janaesterkindemo//blog/tags/drafts.xml" rel="self"/>
-    <link href="janaesterkindemo//"/>
-    <updated>2023-12-22T22:15:23+00:00</updated>
-    <id>janaesterkindemo//</id>
+    <link href="https://jonadb97.github.io/janaesterkindemo//blog/tags/drafts.xml" rel="self"/>
+    <link href="https://jonadb97.github.io/janaesterkindemo//"/>
+    <updated>2023-12-22T22:17:13+00:00</updated>
+    <id>https://jonadb97.github.io/janaesterkindemo//</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[This is a draft!]]></title>
-            <link href="janaesterkindemo//blog/2012/12/14/a-draft-post/"/>
+            <link href="https://jonadb97.github.io/janaesterkindemo//blog/2012/12/14/a-draft-post/"/>
             <updated>2012-12-14T00:00:00+00:00</updated>
-            <id>janaesterkindemo//blog/2012/12/14/a-draft-post/</id>
+            <id>https://jonadb97.github.io/janaesterkindemo//blog/2012/12/14/a-draft-post/</id>
             <content type="html"><![CDATA[<p>This is a draft post. You will only see this if you are running the <code>dev</code>
 environment (<code>dev</code> is the default).</p>
 

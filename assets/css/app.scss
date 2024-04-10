@@ -1,6 +1,8 @@
 @import "services";
 @import "acerca";
 @import "contacto";
+@import "trabajaprofundamente";
+@import "porqueconmigo";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Questrial&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -113,18 +115,32 @@ body > main.container {
 
 .presentation-logo {
     margin-right: auto;
-    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
 }
 
-.flowers {
-    position: absolute;
-    width: 30vw;
-    top: 12vh;
-    left: -2vw;
-    z-index: -1;
-}
+.golden{
+    font-weight: bold;
+    background-image: linear-gradient(
+     to right,
+     #462523 0,
+            #cb9b51 22%, 
+     #f6e27a 45%,
+     #f6f2c0 50%,
+     #f6e27a 55%,
+     #cb9b51 78%,s
+     #462523 100%
+     ) !important;
+    color:transparent !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+ 
+ }
+
 •••••••
 main {
     width: 100vw;
@@ -133,24 +149,25 @@ main {
 
 .logotipo-home {
     z-index: 2;
-    background-color: #ffd6bac9;
+    background-color: #2F4858;
     padding: 3rem;
     box-shadow: 0px 0px 15px #2F4858;
     width: 25vw;
+    // border: 1px solid rgb(255, 251, 18);
 }
 
 .presentation {
-    margin-left: 8rem;
     color: #2F4858;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
-
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
-
-    a {
-        margin-left: auto;
-        margin-right: auto;
+    width: 100%;
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 4rem;
     }
 
     button {

@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /blog/tags/
 Disallow: /blog/categories/
 
-Sitemap: https://jonadb97.github.io/janaesterkindemo//sitemap.xml
+Sitemap: /sitemap.xml

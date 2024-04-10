@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[Jana Esterkin]]></title>
-    <link href="https://jonadb97.github.io/janaesterkindemo//blog/tags/static site generator.xml" rel="self"/>
-    <link href="https://jonadb97.github.io/janaesterkindemo//"/>
-    <updated>2023-12-22T22:40:28+00:00</updated>
-    <id>https://jonadb97.github.io/janaesterkindemo//</id>
+    <link href="/blog/tags/static site generator.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2024-04-10T17:41:09+00:00</updated>
+    <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Balrog]]></title>
-            <link href="https://jonadb97.github.io/janaesterkindemo//blog/2012/10/16/balrog/"/>
+            <link href="/blog/2012/10/16/balrog/"/>
             <updated>2012-10-16T00:00:00+00:00</updated>
-            <id>https://jonadb97.github.io/janaesterkindemo//blog/2012/10/16/balrog/</id>
+            <id>/blog/2012/10/16/balrog/</id>
             <content type="html"><![CDATA[<p>Found out about <a href="http://github.com/igorw/balrog">Balrog</a> today! It looks
 like a really nice micro static site generator. Maybe Sculpin and Balrog
 can be friends?</p>

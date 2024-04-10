@@ -1,0 +1,23 @@
+.trabajaprofundamente {
+  min-height: auto;
+  background-color: #2F4858;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+.trabajaprofundamente h1 {
+  color: #FFD6BA;
+  margin: 6rem auto 0 auto;
+}
+.trabajaprofundamente ul {
+  margin: 6rem auto 0 auto;
+}
+.trabajaprofundamente ul li {
+  color: #FFD6BA;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+/*# sourceMappingURL=trabajaprofundamente.css.map */

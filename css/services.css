@@ -1,0 +1,49 @@
+.services {
+  min-height: 100vh;
+  background-color: #2F4858;
+  display: flex;
+  flex-direction: column;
+}
+.services h1 {
+  color: #FFD6BA;
+  margin: 6rem auto 0 auto;
+}
+.services .box {
+  padding: 0.5rem;
+  outline: 1px solid #FFD6BA;
+  outline-offset: 10px;
+  background-color: #FFD6BA;
+  color: #2F4858;
+  transition: 0.2s ease-in-out;
+  max-width: 300px;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.services .box img {
+  width: 64px;
+  height: 64px;
+}
+.services .boxes {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.services .row1 {
+  display: inline-flex;
+  margin: auto;
+  gap: 5rem;
+}
+.services .row2 {
+  display: inline-flex;
+  margin: auto;
+  gap: 5rem;
+}
+
+/*# sourceMappingURL=services.css.map */

@@ -1,0 +1,63 @@
+.porqueconmigo {
+  min-height: auto;
+  background-color: #FFD6BA;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+.porqueconmigo h1 {
+  color: #2F4858;
+  margin: 6rem auto 0 auto;
+}
+.porqueconmigo ul {
+  margin: 6rem auto 0 auto;
+  width: 50vw;
+}
+.porqueconmigo ul li {
+  color: #FFD6BA;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+.porqueconmigo .row1 {
+  flex-direction: column;
+  margin: 0;
+  gap: 0;
+}
+.porqueconmigo .box {
+  padding: 2rem;
+  background-color: #2F4858;
+  transition: 0.2s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 40vw;
+  height: 20vw;
+}
+.porqueconmigo .box h3, .porqueconmigo .box p {
+  color: #FFD6BA !important;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+.porqueconmigo .box img {
+  width: 64px;
+  height: 64px;
+  filter: invert(100%);
+}
+.porqueconmigo .boxes {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.porqueconmigo .row1 {
+  display: inline-flex;
+  margin: auto;
+}
+
+/*# sourceMappingURL=porqueconmigo.css.map */

@@ -4,37 +4,44 @@
 @import "trabajaprofundamente";
 @import "porqueconmigo";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Questrial&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Questrial&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @font-face {
-    font-family: 'JWH';
+    font-family: "JWH";
     font-style: normal;
     font-weight: 400;
-    src: url('source/assets/fonts/JWH/JWH.ttf') format('ttf'); 
-  }
+    src: url("source/assets/fonts/JWH/JWH.ttf") format("ttf");
+}
 
-  /*
+/*
 body {
     background-color: #FFD6BA !important;
 }
 */
 
-html, body {
-    background-color: #FFD6BA;
+html,
+body {
+    background-color: #ffd6ba;
 }
 
 * {
-    font-family: 'Questrial';
-    color: #2F4858;
+    font-family: "Questrial";
+    color: #2f4858;
     scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6, h7 {
-    font-family: 'JWH';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+    font-family: "JWH";
 }
 
 p {
-    font-family: 'Questrial';
+    font-family: "Questrial";
 }
 
 small {
@@ -42,7 +49,8 @@ small {
     color: #888;
 }
 
-main.container, footer.container {
+main.container,
+footer.container {
     max-width: 900px;
 }
 
@@ -67,6 +75,14 @@ footer.container {
     body {
         padding-bottom: 40px;
     }
+
+    .nav-icon:first-child {
+        margin-left: 1rem;
+    }
+
+    .presentation-logo {
+        margin: auto;
+    }
 }
 
 body > main.container {
@@ -81,12 +97,12 @@ body > main.container {
 }
 
 .navbar-brand {
-    color: #2F4858 !important;
-    font-family: 'JWH';
+    color: #2f4858 !important;
+    font-family: "JWH";
 }
 
 .nav-link {
-    color: #2F4858 !important;
+    color: #2f4858 !important;
     transition: 0.2s;
 }
 
@@ -96,6 +112,19 @@ body > main.container {
 
 .navbar-nav {
     margin-left: auto;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    transition: 0.2s ease-in-out;
+}
+
+.nav-icon > a:hover {
+    transform: scale(1.2);
 }
 
 .navegador {
@@ -109,8 +138,9 @@ body > main.container {
     width: 80vw;
     transform: translateX(8vw);
     padding-top: 3rem;
-    height: 100vh;
-    background-color: #FFD6BA;
+    min-height: 100vh;
+    height: auto;
+    background-color: #ffd6ba;
 }
 
 .presentation-logo {
@@ -123,41 +153,39 @@ body > main.container {
     height: 100%;
 }
 
-.golden{
+.golden {
     font-weight: bold;
     background-image: linear-gradient(
-     to right,
-     #462523 0,
-            #cb9b51 22%, 
-     #f6e27a 45%,
-     #f6f2c0 50%,
-     #f6e27a 55%,
-     #cb9b51 78%,s
-     #462523 100%
-     ) !important;
-    color:transparent !important;
+        to right,
+        #462523 0,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        s #462523 100%
+    ) !important;
+    color: transparent !important;
     -webkit-background-clip: text !important;
     background-clip: text !important;
- 
- }
+}
 
-•••••••
-main {
+••••••• main {
     width: 100vw;
-    background-color: #FFD6BA;
+    background-color: #ffd6ba;
 }
 
 .logotipo-home {
     z-index: 2;
-    background-color: #2F4858;
+    background-color: #2f4858;
     padding: 3rem;
-    box-shadow: 0px 0px 15px #2F4858;
+    box-shadow: 0px 0px 15px #2f4858;
     width: 25vw;
     // border: 1px solid rgb(255, 251, 18);
 }
 
 .presentation {
-    color: #2F4858;
+    color: #2f4858;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -168,19 +196,19 @@ main {
     h1 {
         font-size: 4rem;
         margin-bottom: 4rem;
+        text-align: center;
     }
 
     button {
         margin-left: auto;
         margin-right: auto;
     }
-
 }
 
 .dark-btn {
     padding: 0.5rem 1rem 0.5rem 1rem;
-    border: 1px solid #2F4858;
-    color: #2F4858;
+    border: 1px solid #2f4858;
+    color: #2f4858;
     background-color: transparent;
     backdrop-filter: blur(15px);
     transition: 0.2s;
@@ -188,9 +216,189 @@ main {
 
 .dark-btn:hover {
     padding: 0.5rem 1rem 0.5rem 1rem;
-    border: 1px solid #2F4858;
+    border: 1px solid #2f4858;
     color: white;
     background-color: #2f48587e;
     backdrop-filter: blur(15px);
     transform: scale(1.1);
+}
+
+.footer-rrss {
+    margin-left: 100%;
+    display: flex;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+@media (max-width: 720px) {
+    .nav-icon:first-child {
+        margin-left: 0;
+    }
+
+    .logotipo-home {
+        padding: 0.5rem;
+        height: 24dvw;
+        width: 24dvw;
+    }
+
+    .home-container {
+        display: flex;
+        flex-direction: column;
+
+        .presentation {
+            
+
+            h1 {
+                font-size: 10dvw;
+                margin: 0;
+                padding: 0;
+                padding-bottom: 2rem;
+            }
+
+            height: auto;
+
+        }
+
+        .presentation-logo {
+            padding-top: 10dvw;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+
+            img {
+                width: 40dvw;
+                height: 40dvw;
+            }
+        }
+    }
+
+    .services {
+        h1 {
+            text-align: center;
+        }
+
+        height: auto;
+        padding-bottom: 15dvw;
+
+        .boxes {
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+
+            .row1,
+            .row2 {
+                display: flex;
+                flex-direction: column;
+                gap: 4rem;
+                .box {
+                    max-width: none;
+                    max-height: none;
+                    width: 85dvw;
+                    height: 60dvw;
+
+                    img {
+                        height: 24px;
+                        width: 24px;
+                    }
+
+                    h3 {
+                        font-size: 1rem;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .acerca-de {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 2rem;
+        .info-de {
+            p {
+                width: 80%;
+                font-size: 1rem;
+                text-align: justify;
+            }
+        }
+    }
+
+    .trabajaprofundamente {
+        .trabaja-box1 {
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            ul > li {
+                font-size: 1rem;
+                padding-left: 0;
+                padding-right: 2rem;
+            }
+        }
+    }
+
+    .porqueconmigo {
+        h1 {
+            text-align: center;
+        }
+
+        .boxes {
+            .row1 {
+                .box {
+                    width: 80dvw;
+                    height: auto;
+
+                    img {
+                        width: 32px;
+                        height: 32px;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                        width: 100%;
+                        text-align: left;
+                        width: 75dvw;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .footer-rrss {
+            margin: 0;
+            margin-top: 0.5rem;
+            padding: 0;
+        }
+
+        .firma {
+            font-size: 0.5rem !important;
+            margin-top: 1rem;
+        }
+    }
+
+    .contacto {
+        form {
+            width: 80dvw;
+
+            input, textarea {
+                width: 75dvw;
+            }
+        }
+    }
 }

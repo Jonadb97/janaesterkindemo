@@ -1,7 +1,9 @@
 .services {
   min-height: 100vh;
+  height: auto;
   background-color: #2F4858;
   display: flex;
+  padding-bottom: 5dvw;
   flex-direction: column;
 }
 .services h1 {
@@ -10,22 +12,29 @@
 }
 .services .box {
   padding: 0.5rem;
+  margin: 0;
   outline: 1px solid #FFD6BA;
   outline-offset: 10px;
   background-color: #FFD6BA;
   color: #2F4858;
   transition: 0.2s ease-in-out;
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 20dvw;
+  max-height: 18dvw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+.services .box h3 {
+  font-size: 1.5dvw;
+}
+.services .box p {
+  font-size: 1dvw;
+}
 .services .box img {
-  width: 64px;
-  height: 64px;
+  width: 56px;
+  height: 56px;
 }
 .services .boxes {
   margin-left: auto;

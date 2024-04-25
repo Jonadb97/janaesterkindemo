@@ -34,12 +34,15 @@
   justify-content: flex-start;
   align-items: center;
   text-align: center;
+  border-bottom: 2px solid #2F4858;
+  border-top: 2px solid #2F4858;
   width: 40vw;
   height: 20vw;
+  box-shadow: 0px 2px 0px #2F4858;
 }
 .porqueconmigo .box h3, .porqueconmigo .box p {
   color: #FFD6BA !important;
-  font-size: 1.5rem;
+  font-size: 1.5dvw;
   margin-left: 2rem;
 }
 .porqueconmigo .box img {
@@ -53,7 +56,6 @@
   margin-top: 4rem;
   display: flex;
   flex-direction: column;
-  gap: 5rem;
 }
 .porqueconmigo .row1 {
   display: inline-flex;
